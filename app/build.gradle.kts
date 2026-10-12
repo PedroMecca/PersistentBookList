@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "br.edu.ifsp.scl.sc303500x.persistentcontactlist"
+    namespace = "br.edu.ifsp.scl.sc303500x.persistentbooklist"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -13,7 +13,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "br.edu.ifsp.scl.sc303500x.persistentcontactlist"
+        applicationId = "br.edu.ifsp.scl.sc303500x.persistentbooklist"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
